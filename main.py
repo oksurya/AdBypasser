@@ -3,7 +3,6 @@ import random
 import streamlit as st
 from PyBypass.main import BypasserNotFoundError, UnableToBypassError, UrlConnectionError
 import PyBypass as bypasser
-from streamlit_extras.buy_me_a_coffee import button
 
 st.set_page_config(page_title="URL Bypasser", page_icon='🧊',
                    layout="centered", initial_sidebar_state="auto",    menu_items={
@@ -14,7 +13,7 @@ st.set_page_config(page_title="URL Bypasser", page_icon='🧊',
 
 
 def random_celeb():
-    return random.choice([st.balloons(), st.snow()])
+    return random.choice([st.balloons()])
 
 st.title("URL Bypasser")
 tab1, tab2 = st.tabs(["Bypass", "Available Websites", ])
@@ -51,4 +50,4 @@ with tab2:
     st.subheader("Available Websites")
     st.table(__avl_website__)
 
-button(username="kevinadar22", floating=1, width=221)
+
