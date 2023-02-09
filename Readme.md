@@ -16,4 +16,4 @@ To use the app, just enter the AdLinkFly link in the text box and click the "Byp
 
 ## Support
 
-For any questions or support requests, please contact Jesika Maraj at jesikamaraj@gmail.com.
+For any questions or support requests, please contact me at jesikamaraj@gmail.com.
